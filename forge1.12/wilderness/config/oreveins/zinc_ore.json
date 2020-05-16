@@ -1,0 +1,41 @@
+{
+    "zinc_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "primal:ore_zinc",
+                "meta": 0,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_clover",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            },
+            {
+                "blocks": "contenttweaker:flower_zilla",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 6,
+        "rarity": 40,
+        "min_y": 24,
+        "max_y": 200,
+        "density": 100,
+        "vertical_size": 24,
+        "horizontal_size": 48,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

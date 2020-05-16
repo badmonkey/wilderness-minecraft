@@ -1,0 +1,32 @@
+[
+  {
+    "dimension": 0,
+    "seesky": "true",
+    "biome": "minecraft:plains",
+    "mobs": [
+      {
+        "mob": "fossil:fossil.compsognathus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 2,
+    "mobs": [
+      {
+        "mob": "fossil:fossil.dodo",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "primitivemobs:dodo",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  }
+]

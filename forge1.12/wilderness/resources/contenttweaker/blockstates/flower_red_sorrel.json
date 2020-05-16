@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/flower/red_sorrel",
+      "texture": "contenttweaker:blocks/flower/red_sorrel",
+      "particle": "contenttweaker:blocks/flower/red_sorrel"
+    },
+    "model": "minecraft:cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

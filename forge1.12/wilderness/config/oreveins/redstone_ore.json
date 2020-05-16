@@ -1,0 +1,40 @@
+{
+    "redstone_pipe_overworld": {
+        "type": "pipe",
+        "ore": "minecraft:redstone_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_flame_lily",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "contenttweaker:flower_aveloz",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "piecesofore:piecesofredstoneore",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 15,
+        "min_y": 0,
+        "max_y": 50,
+        "density": 200,
+        "vertical_size": 70,
+        "horizontal_size": 2,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/flower/camellia",
+      "texture": "contenttweaker:blocks/flower/camellia",
+      "particle": "contenttweaker:blocks/flower/camellia"
+    },
+    "model": "minecraft:cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

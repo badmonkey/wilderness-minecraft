@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/flower/melastoma",
+      "texture": "contenttweaker:blocks/flower/melastoma",
+      "particle": "contenttweaker:blocks/flower/melastoma"
+    },
+    "model": "minecraft:cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

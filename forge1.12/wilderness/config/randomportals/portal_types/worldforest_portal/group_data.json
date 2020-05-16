@@ -1,0 +1,20 @@
+{
+	"blacklistAllUndefinedDimensions": true,
+	"activationDimensionIDBlacklist": [],
+	"defaultDimensionID": 0,
+	"entitySpawns": {
+		"0": {
+			"rate": 2000,
+			"entities": {
+				"minecraft:bat": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"minecraft:spider": {
+					"nbt": "{}",
+					"weight": 50.0
+				}
+			}
+		}
+	}
+}

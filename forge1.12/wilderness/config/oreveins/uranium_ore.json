@@ -1,0 +1,63 @@
+{
+    "uranium_mix_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 5,
+                "weight": 40
+            },
+            {
+                "block": "deepresonance:resonating_ore",
+                "weight": 20
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_red_amaranth",
+                        "weight": 40
+                    },
+                    {
+                        "block": "contenttweaker:flower_malva",
+                        "weight": 20
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            },
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_primrose",
+                        "weight": 40
+                    },
+                    {
+                        "block": "contenttweaker:flower_marigold",
+                        "weight": 20
+                    }
+                ],
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 6,
+        "rarity": 800,
+        "min_y": 0,
+        "max_y": 32,
+        "density": 600,
+        "vertical_size": 24,
+        "horizontal_size": 46,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

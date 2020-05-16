@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/flower/affine",
+      "texture": "contenttweaker:blocks/flower/affine",
+      "particle": "contenttweaker:blocks/flower/affine"
+    },
+    "model": "minecraft:cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

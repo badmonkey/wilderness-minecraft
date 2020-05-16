@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/flower/vallozia",
+      "texture": "contenttweaker:blocks/flower/vallozia",
+      "particle": "contenttweaker:blocks/flower/vallozia"
+    },
+    "model": "minecraft:cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

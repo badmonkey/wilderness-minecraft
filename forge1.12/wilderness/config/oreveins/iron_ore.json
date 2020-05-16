@@ -1,0 +1,145 @@
+{
+    "iron_cluster_overworld": {
+        "type": "cluster",
+        "ore": "minecraft:iron_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_poorjoe",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "contenttweaker:flower_red_sorrel",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "piecesofore:pieceiron",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 250,
+        "count": 1,
+        "density": 50,
+        "vertical_size": 15,
+        "horizontal_size": 15,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "iron_vein_overworld": {
+        "type": "curve",
+        "ore": "minecraft:iron_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_poorjoe",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "contenttweaker:flower_red_sorrel",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "piecesofore:pieceiron",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 250,
+        "min_y": 0,
+        "max_y": 60,
+        "density": 100,
+        "vertical_size": 40,
+        "horizontal_size": 100,
+        "radius": 10,
+        "angle": 15,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "iron_nickel_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "minecraft:iron_ore",
+                "weight": 60
+            },
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 4,
+                "weight": 40
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_poorjoe",
+                        "weight": 60
+                    },
+                    {
+                        "block": "contenttweaker:flower_shrub_violet",
+                        "weight": 40
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_red_sorrel",
+                        "weight": 60
+                    },
+                    {
+                        "block": "contenttweaker:flower_milkwort",
+                        "weight": 40
+                    }
+                ],
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "piecesofore:pieceiron",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 400,
+        "min_y": 5,
+        "max_y": 55,
+        "density": 15,
+        "vertical_size": 30,
+        "horizontal_size": 80,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

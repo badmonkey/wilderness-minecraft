@@ -1,0 +1,125 @@
+{
+    "silver_lead_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 3,
+                "weight": 60
+            },
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 2,
+                "weight": 40
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_mustard",
+                        "weight": 60
+                    },
+                    {
+                        "block": "contenttweaker:flower_leadplant",
+                        "weight": 40
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            },
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_rapeseed",
+                        "weight": 60
+                    },
+                    {
+                        "block": "contenttweaker:flower_sheeps_fescue",
+                        "weight": 40
+                    }
+                ],
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 4,
+        "rarity": 500,
+        "min_y": 8,
+        "max_y": 36,
+        "density": 100,
+        "vertical_size": 46,
+        "horizontal_size": 24,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "silver_nickel_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+        {
+                "block": "immersiveengineering:ore",
+                "meta": 3,
+                "weight": 30
+            },
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 4,
+                "weight": 10
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_mustard",
+                        "weight": 30
+                    },
+                    {
+                        "block": "contenttweaker:flower_shrub_violet",
+                        "weight": 10
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            },
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_rapeseed",
+                        "weight": 30
+                    },
+                    {
+                        "block": "contenttweaker:flower_milkwort",
+                        "weight": 10
+                    }
+                ],
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "rarity": 500,
+        "min_y": 70,
+        "max_y": 140,
+        "density": 165,
+        "vertical_size": 3,
+        "horizontal_size": 30,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

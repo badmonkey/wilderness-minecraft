@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/iron_metalcap",
+      "texture": "contenttweaker:blocks/iron_metalcap",
+      "particle": "contenttweaker:blocks/iron_metalcap"
+    },
+    "model": "minecraft:brown_mushroom",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

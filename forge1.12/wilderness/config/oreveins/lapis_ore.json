@@ -1,0 +1,90 @@
+{
+    "lapis_cone_overworld": {
+        "type": "cone",
+        "ore": "minecraft:lapis_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_arrowhead",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            },
+            {
+                "blocks": "contenttweaker:flower_paintbrush",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "rarity": 300,
+        "min_y": 0,
+        "max_y": 25,
+        "density": 100,
+        "vertical_size": 6,
+        "horizontal_size": 4,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "lapis_gold_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "minecraft:lapis_ore",
+                "weight": 60
+            },
+            {
+                "block": "minecraft:gold_ore",
+                "weight": 10
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_arrowhead",
+                        "weight": 60
+                    },
+                    {
+                        "block": "contenttweaker:flower_horsetail",
+                        "weight": 10
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 14
+            },
+            {
+                "blocks": "contenttweaker:flower_paintbrush",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 14
+            },
+            {
+                "blocks": "piecesofore:piecofgold",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 400,
+        "min_y": 10,
+        "max_y": 40,
+        "density": 80,
+        "vertical_size": 10,
+        "horizontal_size": 20,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }  
+}

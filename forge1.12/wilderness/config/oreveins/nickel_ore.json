@@ -1,0 +1,41 @@
+{
+    "nickel_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 4,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_shrub_violet",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            },
+            {
+                "blocks": "contenttweaker:flower_milkwort",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 6,
+        "rarity": 500,
+        "min_y": 0,
+        "max_y": 60,
+        "density": 160,
+        "vertical_size": 36,
+        "horizontal_size": 24,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "diamond_rich_pipe_overworld": {
+        "type": "pipe",
+        "ore": "minecraft:diamond_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_vallozia",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "contenttweaker:flower_chandelier_tree",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "piecesofore:piecesofdiamond",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 600,
+        "min_y": 10,
+        "max_y": 30,
+        "density": 80,
+        "vertical_size": 30,
+        "horizontal_size": 10,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "diamond_pipe_overworld": {
+        "type": "pipe",
+        "ore": "minecraft:diamond_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_vallozia",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "contenttweaker:flower_chandelier_tree",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "piecesofore:piecesofdiamond",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 700,
+        "min_y": 0,
+        "max_y": 15,
+        "density": 50,
+        "vertical_size": 20,
+        "horizontal_size": 10,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

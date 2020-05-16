@@ -1,0 +1,334 @@
+
+
+mobs:
+    default:
+        weight: 5
+        groupcountmin: 1
+        groupcountmax: 2
+    "group:wildlife":
+        "group:passive":
+            "minecraft:bat":
+            "minecraft:chicken":
+            "minecraft:cow":
+            "minecraft:donkey":
+            "minecraft:horse":
+            "minecraft:llama":
+            "minecraft:squid":
+                group: ["water"]
+            "minecraft:mooshroom":
+            "minecraft:mule":
+            "minecraft:ocelot":
+            "minecraft:parrot":
+                group: ["flying"]
+            "minecraft:pig":
+            "minecraft:rabbit":
+            "minecraft:sheep":
+            "emberroot:deers":
+            "emberroot:owl":
+            "fossil:fossil.dodo":
+            "primitivemobs:dodo":
+            "primitivemobs:chameleon":
+            "quark:crab":
+            "quark:frog":
+        "group:neutral":
+            "minecraft:polar_bear":
+            "minecraft:wolf":
+            "emberroot:timberwolf":
+            "primitivemobs:filch_lizard":
+            "primal:bear_black":
+            "primal:bear_brown":
+            "primal:gator":
+        "group:hostile":
+            "emberroot:dire_wolf":
+            "primal:canis_campestris":
+    "group:nether":
+        "group:passive":
+            "primitivemobs:sheepman":
+        "group:neutral":
+            "fossil:fossil.sentrypigman":
+            "primal:ovis_atre":
+        "group:hostile":
+            "biomesoplenty:wasp":
+            "charm:spectre":
+            "natura:babyheatscarspider":
+            "natura:heatscarspider":
+            "natura:imp":
+            "natura:nitrocreeper":
+            "primal:creeper_nether":
+            "primitivemobs:blazing_juggernaut":
+            "primitivemobs:flame_spewer":
+            "quark:foxhound":
+            "quark:wraith":    
+    "group:fey":
+        "group:passive":
+            "emberroot:fairies":
+            "emberroot:rainbow_golem":
+            "emberroot:rootsonesprite":
+            "emberroot:rootsonespritegreater":
+            "emberroot:rootsonespriteling":
+            "emberroot:sprouts":
+            "iceandfire:if_pixie":
+            "primitivemobs:grovesprite":
+            "quark:stoneling":
+        "group:neutral":
+            "primitivemobs:bewitched_tome":
+            "primitivemobs:haunted_tool":
+        "group:hostile":
+            "minecraft:witch":
+            "emberroot:withercat":
+            "emberroot:witherwitch":
+    "group:neutral":
+        "group:water":
+            "fossil:fossil.sturgeon":
+            "fossil:fossil.nautilus":
+            "primitivemobs:lily_lurker":
+        "group:flying":
+            "iceandfire:amphithere":
+            "iceandfire:hippocampus":
+            "iceandfire:hippogryph":
+        "group:ender":
+            "minecraft:enderman":
+            "minecraft:endermite":
+            "minecraft:shulker":
+            "emberroot:enderminy":
+            "primitivemobs:void_eye":
+    "group:hostile":       
+        "group:water":
+            "minecraft:guardian":
+            "primal:shark_hammerhead":
+            "iceandfire:seaserpent":
+            "iceandfire:siren":
+        "group:flying":
+            "minecraft:vex":
+            "iceandfire:stymphalianbird":
+            "group:dragon":
+                "iceandfire:icedragon":
+                "iceandfire:firedragon":
+        "group:nether":
+            "group:flying":
+                "minecraft:blaze":
+                    group: ["elemental"]
+                "minecraft:ghast":
+            "minecraft:magma_cube":
+                group: ["slime"]
+            "group:undead":
+                "minecraft:zombie_pigman":
+                "minecraft:wither_skeleton":
+        "group:undead":
+            "minecraft:husk":
+                group: ["underground"]
+            "minecraft:stray":
+            "minecraft:skeleton":
+            "minecraft:skeleton_horse":
+            "minecraft:zombie":
+            "minecraft:zombie_horse":
+            "minecraft:zombie_villager":
+            "emberroot:fallenmount":   
+            "emberroot:knight_fallen":
+            "emberroot:skeleton_frozen":
+            "primitivemobs:skeleton_warrior":
+            "quark:ashen":
+            "quark:dweller":
+        "group:creeper":
+            "minecraft:creeper":
+            "emberroot:creeper":
+            "primitivemobs:festive_creeper":
+            "primitivemobs:rocket_creeper":
+            "primitivemobs:support_creeper":
+        "group:slime":
+            "minecraft:slime":
+            "fossil:fossil.tarslime":
+            "emberroot:rainbowslime"::
+            "emberroot:slime":
+            "primitivemobs:brain_slime":
+            "primitivemobs:treasure_slime":
+            "tconstruct:blueslime":
+        "group:elementals":
+            "thermalfoundation:basalz":
+            "thermalfoundation:blitz":
+            "thermalfoundation:blizz":
+            "ebwizardry:lightning_wraith":
+            "ebwizardry:ice_wraith":
+            "ebwizardry:shadow_wraith":
+            "ebwizardry:storm_elemental":
+        "minecraft:silverfish":
+        "minecraft:cave_spider":
+        "minecraft:spider":
+        "iceandfire:deathworm":   
+        "iceandfire:if_cockatrice":
+        "iceandfire:if_troll":
+        "primitivemobs:baby_spider":
+        "primitivemobs:goblin":
+        "primitivemobs:harpy":
+        "primitivemobs:mimic":
+        "primitivemobs:mother_spider":
+        "primitivemobs:trollager":
+        "ebwizardry:ice_giant":
+        "ebwizardry:phoenix":
+        "ebwizardry:spirit_horse":
+        "ebwizardry:spirit_wolf":
+    "group:dinosaurs":
+        "fossil:fossil.alligator_gar":
+        "fossil:fossil.allosaurus":
+        "fossil:fossil.ankylosaurus":
+        "fossil:fossil.arthropleura":
+        "fossil:fossil.brachiosaurus":
+        "fossil:fossil.ceratosaurus":
+        "fossil:fossil.citipati":
+        "fossil:fossil.coelacanth":
+        "fossil:fossil.compsognathus":
+        "fossil:fossil.confuciusornis":
+        "fossil:fossil.crassigyrinus":
+        "fossil:fossil.deinonychus":
+        "fossil:fossil.dilophosaurus":
+        "fossil:fossil.diplocaulus":
+        "fossil:fossil.dryosaurus":
+        "fossil:fossil.edaphosaurus":
+        "fossil:fossil.elasmotherium":
+        "fossil:fossil.gallimimus":
+        "fossil:fossil.gastornis":
+        "fossil:fossil.henodus":
+        "fossil:fossil.icthyosaurus":
+        "fossil:fossil.kelenken":
+        "fossil:fossil.liopleurodon":
+        "fossil:fossil.mammoth":
+        "fossil:fossil.megalania":
+        "fossil:fossil.megaloceros":
+        "fossil:fossil.megalodon":
+        "fossil:fossil.megalograptus":
+        "fossil:fossil.meganeura":
+        "fossil:fossil.mosasaurus":
+        "fossil:fossil.pachycephalosaurus":
+        "fossil:fossil.parasaurolophus":
+        "fossil:fossil.phorusrhacos":
+        "fossil:fossil.platybelodon":
+        "fossil:fossil.plesiosaur":
+        "fossil:fossil.pterosaur":
+        "fossil:fossil.quagga":
+        "fossil:fossil.sarcosuchus":
+        "fossil:fossil.smilodon":
+        "fossil:fossil.spinosaurus":
+        "fossil:fossil.stegosaurus":
+        "fossil:fossil.therizinosaurus":
+        "fossil:fossil.tiktaalik":
+        "fossil:fossil.titanis":
+        "fossil:fossil.triceratops":
+        "fossil:fossil.tyrannosaurus":
+        "fossil:fossil.velociraptor":
+    "group:boss":
+        "group:ender":
+            "group:dragon":
+                "minecraft:ender_dragon":
+                "draconicevolution:chaosguardian":
+        "minecraft:wither":
+            group: ["nether"]
+        "minecraft:elder_guardian":
+            group: ["water"]
+        "fossil:fossil.anu":
+        "fossil:fossil.anubite":
+        "emberroot:rootsonespriteboss":
+    "group:miniboss":
+        "iceandfire:cyclops":
+        "iceandfire:gorgon":
+        "fossil:fossil.failuresaurus":
+        "iceandfire:myrmex_queen":
+        "iceandfire:myrmex_royal":
+        "iceandfire:myrmex_sentinel":
+        "iceandfire:myrmex_soldier":
+        "iceandfire:myrmex_worker":
+    "group:villager":        
+        "group:passive":
+            "emberroot:hero":
+            "iceandfire:snowvillager":
+            "primitivemobs:traveling_merchant":
+            "quark:archaeologist":
+            "minecraft:villager":        
+            "primitivemobs:lost_miner":
+            "ebwizardry:wizard":
+        "group:hostile":
+            "minecraft:evocation_illager":
+            "minecraft:vindication_illager":
+            "ebwizardry:evil_wizard":
+    "group:unwanted_primitivemobs":
+        - "primitivemobs:harpy"
+        - "primitivemobs:blazing_juggernaut"
+        - "primitivemobs:grovesprite"
+        - "primitivemobs:skeleton_warrior"
+        - "primitivemobs:flame_spewer"
+        - "primitivemobs:void_eye"
+        - "primitivemobs:sheepman"
+        - "primitivemobs:festive_creeper"
+        - "primitivemobs:rocket_creeper"
+        - "primitivemobs:traveling_merchant"
+
+disabled:
+    - "iceandfire:deathworm"
+    
+dimension:
+    nether:
+        id: -1
+    overworld:
+        id: 0
+        allow:
+            - "primitivemobs:traveling_merchant"
+            - "fossil:fossil.coelacanth"
+            - "fossil:fossil.compsognathus"
+            - "fossil:fossil.sturgeon"
+            - "fossil:fossil.nautilus"
+            - "fossil:fossil.phorusrhacos"
+        deny:
+            - "group:unwanted_primitivemobs"
+            - "iceandfire:stymphalianbird"
+            - "iceandfire:if_cockatrice"
+            - "srparasites:*"
+        spawn:
+            mesozoic_crossover:
+                biome:
+                    - "minecraft:plains"
+                seesky: true
+                mobs:
+                    - "fossil:fossil.compsognathus"
+    end:
+        id: 1
+    worldforest:
+        id: 2
+        allow:
+            - "primitivemobs:void_eye"
+        deny:
+            - "group:unwanted_primitivemobs"
+        spawn:
+            dodos:
+                - "fossil:fossil.dodo"
+                - "primitivemobs:dodo"
+    mesozoic:
+        id: 3
+        deny:
+            - "group:unwanted_primitivemobs"
+        spawn:
+            plains:
+                - "group:dinosaurs(and)group:plains"
+            swamps:
+                - "group:dinosaurs(and)group:swamps"
+    skylands:
+        id: 4
+    defiled:
+        id: 5
+        deny:
+            - "group:unwanted_primitivemobs"
+    void:
+        id: 6
+    limbo:
+        id: 7
+    dagobah:
+        id: 8
+        deny:
+            - "group:unwanted_primitivemobs"
+    forgotten:
+        id: 9
+        deny:
+            - "group:unwanted_primitivemobs"
+    betweenlands:
+        id: 20
+    beneath:
+        id: 21
+    

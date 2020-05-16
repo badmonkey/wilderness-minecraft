@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/flower/broadleaf-arrowhead",
+      "texture": "contenttweaker:blocks/flower/broadleaf-arrowhead",
+      "particle": "contenttweaker:blocks/flower/broadleaf-arrowhead"
+    },
+    "model": "minecraft:cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

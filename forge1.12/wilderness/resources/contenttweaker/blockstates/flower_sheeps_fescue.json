@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "contenttweaker:blocks/flower/sheeps_fescue",
+      "texture": "contenttweaker:blocks/flower/sheeps_fescue",
+      "particle": "contenttweaker:blocks/flower/sheeps_fescue"
+    },
+    "model": "minecraft:cross",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

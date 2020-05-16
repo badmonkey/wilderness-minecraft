@@ -1,0 +1,21 @@
+
+=== vanilla ===
+coal, iron, lapis, gold, redstone, diamond, emerald, quartz
+
+=== deep resonace ===
+Resonating Ore
+
+=== immersive ===
+copper, aluminium, lead, silver, nickerl, uranium
+
+=== Draconic evolution ===
+Draconium Ore
+
+=== astral sorcery ===
+Rock Crystal Ore
+
+=== wizardy ===
+Crystal Ore
+
+=== CoFh
+copper, tin, silver, lead, aluminium, nickel, platinium, iridium, resonant end stone

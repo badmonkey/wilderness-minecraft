@@ -1,0 +1,52 @@
+itemGroup.wilderness=Wilderness Items
+
+enchantment.berserker=Beserker Curse
+enchantment.kindlich=KindLich
+
+item.contenttweaker.unobtainium.name=Unobtainium
+item.contenttweaker.charging_gem.name=Charging Gem
+item.contenttweaker.deepest_ingot.name=Deepest Ingot
+item.contenttweaker.raw_unobtainium_gem.name=Raw Unobtainium Gem
+item.contenttweaker.ying_yang.name=Equilibrium of Souls
+
+tile.contenttweaker.blue_obsidian.name=Blue Obsidian
+tile.contenttweaker.unobtainium_ore.name=Unobtainium Ore
+tile.contenttweaker.void_block.name=Void Block
+tile.contenttweaker.broken_bedrock.name=Broken Bedrock
+tile.contenttweaker.compressed_coal.name=Compressed Coal
+tile.contenttweaker.corrupted_soul_stone.name=Corrupted Soul Stone
+tile.contenttweaker.deep_diamond.name=Deep Diamond
+tile.contenttweaker.deepest_ore.name=Deep blue ore
+
+tile.contenttweaker.flower_affine.name=Affine
+tile.contenttweaker.flower_arrowhead.name=Broadleafed Arrowhead
+tile.contenttweaker.flower_aveloz.name=Aveloz
+tile.contenttweaker.flower_camellia.name=Camellia
+tile.contenttweaker.flower_catchfly.name=Alpine Catchfly
+tile.contenttweaker.flower_chandelier_tree.name=Chandelier Tree
+tile.contenttweaker.flower_clover.name=Clover
+tile.contenttweaker.flower_copper_flower.name=Copper Flower
+tile.contenttweaker.flower_flame_lily.name=Flame Lily
+tile.contenttweaker.flower_hauman.name=Hauman
+tile.contenttweaker.flower_horsetail.name=Horsetail
+tile.contenttweaker.flower_leadplant.name=Leadplant
+tile.contenttweaker.flower_madwort.name=Desert Madwort
+tile.contenttweaker.flower_malva.name=Malva
+tile.contenttweaker.flower_marigold.name=Mexican Marigold
+tile.contenttweaker.flower_melastoma.name=Melastoma
+tile.contenttweaker.flower_milkwort.name=Milkwort
+tile.contenttweaker.flower_mustard.name=Mustard
+tile.contenttweaker.flower_paintbrush.name=Indian Paintbrush
+tile.contenttweaker.flower_poorjoe.name=Poorjoe
+tile.contenttweaker.flower_primrose.name=Primrose
+tile.contenttweaker.flower_rapeseed.name=Rapeseed
+tile.contenttweaker.flower_red_amaranth.name=Red Amaranth
+tile.contenttweaker.flower_red_sorrel.name=Red Sorrel
+tile.contenttweaker.flower_sheeps_fescue.name=Sheeps Fescue
+tile.contenttweaker.flower_shrub_violet.name=Shrub Violet
+tile.contenttweaker.flower_stoneroot.name=Stoneroot
+tile.contenttweaker.flower_tansy.name=tansy
+tile.contenttweaker.flower_vallozia.name=Vallozia
+tile.contenttweaker.flower_zilla.name=Zilla
+tile.contenttweaker.iron_metalcap.name=Iron Metalcap
+

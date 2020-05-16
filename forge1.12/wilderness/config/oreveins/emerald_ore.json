@@ -1,0 +1,32 @@
+{
+    "emerald_cluster_overworld": {
+        "type": "cluster",
+        "ore": "minecraft:emerald_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "piecesofore:piecesofsaphire",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 190,
+        "count": 3,
+        "min_y": 0,
+        "max_y": 40,
+        "density": 30,
+        "vertical_size": 5,
+        "horizontal_size": 20,
+        "biomes": [
+            "mountain",
+            "cold",
+            "extreme_hills",
+            "extreme_hills_with_trees",
+            "mutated_extreme_hills",
+            "mutated_extreme_hills_with_trees"
+        ],
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }  
+}

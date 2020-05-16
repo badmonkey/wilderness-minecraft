@@ -1,0 +1,98 @@
+{
+    "copper_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 0,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_hauman",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            },
+            {
+                "blocks": "contenttweaker:flower_copper_flower",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 6,
+        "rarity": 100,
+        "min_y": 24,
+        "max_y": 200,
+        "density": 100,
+        "vertical_size": 24,
+        "horizontal_size": 48,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "copper_gold_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 0,
+                "weight": 60
+            },
+            {
+                "block": "minecraft:gold_ore",
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_hauman",
+                        "weight": 60
+                    },
+                    {
+                        "block": "contenttweaker:flower_horsetail",
+                        "weight": 1
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 10
+            },
+            {
+                "blocks": "contenttweaker:flower_copper_flower",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 10
+            },
+            {
+                "blocks": "piecesofore:piecofgold",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 100,
+        "min_y": 10,
+        "max_y": 80,
+        "density": 80,
+        "vertical_size": 15,
+        "horizontal_size": 25,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

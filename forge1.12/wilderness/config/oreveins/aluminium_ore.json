@@ -1,0 +1,86 @@
+{
+    "aluminium_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 1,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_affine",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 4,
+        "rarity": 150,
+        "min_y": 0,
+        "max_y": 60,
+        "density": 200,
+        "vertical_size": 36,
+        "horizontal_size": 16,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "aluminium_lead_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 1,
+                "weight": 50
+            },
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 2,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_affine",
+                        "weight": 50
+                    },
+                    {
+                        "block": "contenttweaker:flower_leadplant",
+                        "weight": 1
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 50
+            },
+            {
+                "blocks": "contenttweaker:flower_sheeps_fescue",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "rarity": 150,
+        "min_y": 10,
+        "max_y": 80,
+        "density": 80,
+        "vertical_size": 6,
+        "horizontal_size": 45,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

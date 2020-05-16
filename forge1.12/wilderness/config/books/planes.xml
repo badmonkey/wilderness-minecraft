@@ -1,0 +1,28 @@
+<book title="Manual of the Planes" cover="gbook:demo" fontSize="0.6" home="0:0"
+      xmlns="http://localhost/gbook/base"
+      xmlns:minecraft="http://localhost/gbook/minecraft-addons">
+
+    <include ref="gbook:xml/standard.xml"/>
+
+    <conditions>
+        <stage-unlocked name="beginning" stage="beginnning" />
+    </conditions>
+
+    <chapter id="intro">
+        <section>
+            <link ref="basic1">Basics</link>
+        </section>
+    </chapter>
+    <chapter id="basic1">
+        <section>
+            <title>Overview</title>
+            <image src="gbook:dim-beginning" tw="452" th="322">x</image>
+        </section>
+        <section>
+            <title>Overworld</title>
+        </section>
+        <section>
+            <title>Limbo</title>
+        </section>
+    </chapter>
+</book>

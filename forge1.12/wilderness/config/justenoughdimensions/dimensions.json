@@ -1,0 +1,204 @@
+{
+    "dimensions": [
+        {
+            "dim": 2,
+            "dimensiontype": {
+                "id": 2,
+                "name": "Yggdrasil",
+                "suffix": "_dim2",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "lostcities",
+                "generatorOptions": "{\"profile\":\"worldforest_city\"}",
+                "GameRules": {
+                    "doFireTick": "false"
+                }
+            }
+        },
+        {
+            "dim": 3,
+            "dimensiontype": {
+                "id": 3,
+                "name": "Mesozoic Park",
+                "suffix": "_dim3",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "lostcities",
+                "generatorOptions": "{\"profile\":\"mesozoic_city\"}"
+            }
+        },
+        {
+            "dim": 4,
+            "dimensiontype": {
+                "id": 4,
+                "name": "Skylands",
+                "suffix": "_dim4",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "skylands"
+            }
+        },
+        {
+            "dim": 5,
+            "dimensiontype": {
+                "id": 5,
+                "name": "Defiled",
+                "suffix": "_dim5",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "lostcities",
+                "generatorOptions": "{\"profile\":\"defiled_city\"}"
+            }
+        },
+        {
+            "dim": 6,
+            "dimensiontype": {
+                "id": 6,
+                "name": "The Void",
+                "suffix": "_dim6",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;127;",
+                "DayTime": 6000,
+                "SpawnX": 0,
+                "SpawnZ": 0,
+                "SpawnY": 200,
+                "GameRules": {
+                    "doDaylightCycle": "false",
+                    "doWeatherCycle": "false",
+                    "doMobSpawning": "false"
+                }
+            },
+            "spawn_structure": {
+                "name": "skyblock-spawn-island.schematic",
+                "centered": true,
+                "offset": [-1, -10, 0]
+            },
+            "jed": {
+                "SkyRenderType": 2,
+                "CloudRenderer": "DummyRenderer",
+                "SkyBlend": 1.0,
+                "DisableDawnDuskColors": true,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "CanDoLightning": true,
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false
+            }
+        },
+        {
+            "dim": 7,
+            "biome": "biomesoplenty:undergarden",
+            "dimensiontype": {
+                "id": 7,
+                "name": "Limbo",
+                "suffix": "_dim7",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderHellJED"
+            },
+            "jed": {
+                "SkyColor": "eeaaaa",
+                "FogColor": "331111",
+                "CloudColor": "ee9999",
+                "CanRespawnHere": false,
+                "RespawnDimension": 0,
+                "CanSleepHere": "bed_explodes",
+                "CanDoLightning": false,
+                "CanDoRainSnowIce": false,
+                "CloudRenderer": "DummyRenderer",
+                "DisableDawnDuskColors": true,
+                "HasXZFog": true,
+                "IsSurfaceWorld": false,
+                "MovementFactor": 8,
+                "MusicType": "nether",
+                "SkyRenderer": "DummyRenderer",
+                "WeatherRenderer": "DummyRenderer",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": true
+            },
+            "worldinfo_onetime": {
+                "RandomSeed": "",
+                "GameRules": {
+                    "naturalRegeneration": false
+                },
+                "generatorName": "BIOMESOP"
+            }
+        },
+        {
+            "dim": 8,
+            "biome": "minecraft:swampland",
+            "dimensiontype": {
+                "existing_dimensiontype": "overworld"
+            },
+            "worldinfo_onetime": {}
+        },
+        {
+            "dim": 9,
+            "dimensiontype": {
+                "id": 9,
+                "name": "The Forgotten",
+                "suffix": "_dim9",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "lostcities",
+                "generatorOptions": "{\"profile\":\"forgotten_city\"}"
+            }
+        },
+        {
+            "dim": 10,
+            "biome": "biomesoplenty:visceral_heap",
+            "chunkgenerator": "com.shinoow.beneath.common.world.gen.ChunkProviderDeepDank",
+            "dimensiontype": {
+                "id": 10,
+                "name": "The Rot",
+                "suffix": "_dim10",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderHellJED"
+            },
+            "jed": {
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 10,
+                    "max_y": 240
+                },
+                "CanRespawnHere": false,
+                "FogColor": "000000",
+                "SkyColor": "000000",
+                "HasXZFog": true,
+                "IsSurfaceWorld": false
+            }
+        },
+        {
+            "dim": 11,
+            "dimensiontype": {
+                "id": 11,
+                "name": "Above",
+                "suffix": "_dim11",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "skylands"
+            }
+        },
+        {
+            "dim": 20,
+            "jed": {
+                "PlayerInventoryGroup": "Betweenlands"
+            }
+        }
+    ]
+}

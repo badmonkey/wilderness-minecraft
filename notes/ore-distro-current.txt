@@ -1,0 +1,237 @@
+Average of vanilla samples
+-----------------------------------------------------------------------------------------------------------------------
+| deepresonance:resonating_ore           | Resonating Ore      | 2.26186    |
+| immersiveengineering:ore               | Copper Ore          | 28.20163   |
+| immersiveengineering:ore               | Bauxite Ore         | 5.91096    |
+| immersiveengineering:ore               | Lead Ore            | 12.34002   |
+| immersiveengineering:ore               | Silver Ore          | 11.56984   |
+| immersiveengineering:ore               | Nickel Ore          | 3.61154    |
+| immersiveengineering:ore               | Uranium Ore         | 1.3261     |
+| minecraft:coal_ore                     | Coal Ore            | 19.12964   |
+| minecraft:diamond_ore                  | Diamond Ore         | 0.522      |
+| minecraft:emerald_ore                  | Emerald Ore         | 9.86832    |
+| minecraft:gold_ore                     | Gold Ore            | 67.96188   |
+| minecraft:iron_ore                     | Iron Ore            | 24.09468   |
+| minecraft:lapis_ore                    | Lapis Lazuli Ore    | 0.02262    |
+| minecraft:redstone_ore                 | Redstone Ore        | 56.67504   |
+| primal:ore_zinc                        | Carbonate Zinc Ore  | 0.95634    |
+| thermalfoundation:ore                  | Tin Ore             | 25.45326   |
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+| minecraft:diamond_ore                  | Diamond Ore         | 0.25       | ore: 32768         | D,D              | D,C
+| minecraft:emerald_ore                  | Emerald Ore         | 0.5        | ore: 16384         | E                | E 
+| thermalfoundation:ore                  | Platinum Ore        | 1.0        | ingot: 8192        | P                | P
+| minecraft:lapis_ore                    | Lapis Lazuli Ore    | 1.05       | ore: 7776          | La,(La,G)        | La
+| immersiveengineering:ore               | Uranium Ore         | 2.0        | ore: 4096          | (U,R)            | U,L
+| deepresonance:resonating_ore           | Resonating Ore      | 2.0        | ore: 4096          | R                | R,U
+| minecraft:gold_ore                     | Gold Ore            | 4.0        | ingot: 2048        | G,(G,S),(G,Cp)   | G,La,Cp
+| immersiveengineering:ore               | Silver Ore          | 8.0        | ingot: 1024        | (S,L),(S,N)      | S,L
+| immersiveengineering:ore               | Nickel Ore          | 8.0        | ingot: 1024        | N                | N,S,I
+| thermalfoundation:ore                  | Tin Ore             | 10.67      | ingot: 768         | T,(T,Cp)         | T
+| thermalfoundation:ore                  | Iridium Ore         | 16.0       | ingot: 512         | Ir               | Ir
+| immersiveengineering:ore               | Lead Ore            | 16.0       | ingot: 512         | (L,S,U)          | L,S,A
+| minecraft:coal_ore                     | Coal Ore            | 16.0       | ore: 512           | (C,D),C          | C
+| minecraft:redstone_ore                 | Redstone Ore        | 16.0       | ore: 512           | Rd               | Rd
+| minecraft:iron_ore                     | Iron Ore            | 32.0       | ingot: 256         | I,I,(I,N)        | I
+| immersiveengineering:ore               | Copper Ore          | 36.57      | ingot: 224         | Cp,(Cp,G)        | Cp,G,T
+| immersiveengineering:ore               | Bauxite Ore         | 64.0       | ingot: 128         | A,(A,L)          | A
+| primal:ore_zinc                        | Carbonate Zinc Ore  | 64.0       | ingot: 128         | Z                | Z
+-----------------------------------------------------------------------------------------------------------------------
+
+v1.11
+| deepresonance:resonating_ore           | 1585 |    0 | Resonating Ore                       |    296596 | 29.0751
+| immersiveengineering:ore               | 1831 |    0 | Copper Ore                           |    751657 | 73.6846
+| immersiveengineering:ore               | 1831 |    1 | Bauxite Ore                          |    582652 | 57.1171
+| immersiveengineering:ore               | 1831 |    2 | Lead Ore                             |    328136 | 32.1670
+| immersiveengineering:ore               | 1831 |    3 | Silver Ore                           |    117589 | 11.5272
+| immersiveengineering:ore               | 1831 |    4 | Nickel Ore                           |    201611 | 19.7638
+| immersiveengineering:ore               | 1831 |    5 | Uranium Ore                          |    553965 | 54.3049
+| minecraft:coal_ore                     |   16 |    0 | Coal Ore                             |    465471 | 45.6299
+| minecraft:diamond_ore                  |   56 |    0 | Diamond Ore                          |     33321 | 3.2664
+| minecraft:emerald_ore                  |  129 |    0 | Emerald Ore                          |      6362 | 0.6236
+| minecraft:gold_ore                     |   14 |    0 | Gold Ore                             |    169833 | 16.6486
+| minecraft:iron_ore                     |   15 |    0 | Iron Ore                             |    301422 | 29.5482
+| minecraft:lapis_ore                    |   21 |    0 | Lapis Lazuli Ore                     |     23666 | 2.3199
+| minecraft:redstone_ore                 |   73 |    0 | Redstone Ore                         |    188450 | 18.4736
+| primal:ore_zinc                        | 2168 |    0 | Carbonate Zinc Ore                   |    810463 | 79.4493
+| thermalfoundation:ore                  |  403 |    1 | Tin Ore                              |    385372 | 37.7778
+| thermalfoundation:ore                  |  403 |    6 | Platinum Ore                         |     25028 | 2.4534
+| thermalfoundation:ore                  |  403 |    7 | Iridium Ore                          |    887626 | 87.0136
+
+
+
+v1.10
+| deepresonance:resonating_ore          | 1585 |    0 | Resonating Ore                 |    290616 | 28.4889
+| immersiveengineering:ore              | 1831 |    0 | Copper Ore                     |    813145 | 79.7122
+| immersiveengineering:ore              | 1831 |    1 | Bauxite Ore                    |    704577 | 69.0694    *
+| immersiveengineering:ore              | 1831 |    2 | Lead Ore                       |    378887 | 37.1421
+| immersiveengineering:ore              | 1831 |    3 | Silver Ore                     |    161591 | 15.8407
+| immersiveengineering:ore              | 1831 |    4 | Nickel Ore                     |    331387 | 32.4857
+| immersiveengineering:ore              | 1831 |    5 | Uranium Ore                    |    542972 | 53.2273
+| minecraft:coal_ore                    |   16 |    0 | Coal Ore                       |    205947 | 20.1889    *
+| minecraft:diamond_ore                 |   56 |    0 | Diamond Ore                    |     33084 | 3.2432
+| minecraft:emerald_ore                 |  129 |    0 | Emerald Ore                    |      9727 | 0.9535     *
+| minecraft:gold_ore                    |   14 |    0 | Gold Ore                       |    139453 | 13.6705
+| minecraft:iron_ore                    |   15 |    0 | Iron Ore                       |    401333 | 39.3425    *
+| minecraft:lapis_ore                   |   21 |    0 | Lapis Lazuli Ore               |     24198 | 2.3721
+| minecraft:redstone_ore                |   73 |    0 | Redstone Ore                   |     97650 | 9.5725     *
+| primal:ore_zinc                       | 2168 |    0 | Carbonate Zinc Ore             |    888743 | 87.1231    *
+| thermalfoundation:ore                 |  403 |    1 | Tin Ore                        |    519184 | 50.8954    *
+| thermalfoundation:ore                 |  403 |    6 | Platinum Ore                   |     14375 | 1.4091     *
+| thermalfoundation:ore                 |  403 |    7 | Iridium Ore                    |    966886 | 94.7834
+
+
+
+v1.9
+| deepresonance:resonating_ore          | 1585 |    0 | Resonating Ore                |    151658 | 14.8669
+| immersiveengineering:ore              | 1831 |    0 | Copper Ore                    |    801460 | 78.5668
+| immersiveengineering:ore              | 1831 |    1 | Bauxite Ore                   |   1193788 | 117.0265    *
+| immersiveengineering:ore              | 1831 |    2 | Lead Ore                      |    326650 | 32.0213
+| immersiveengineering:ore              | 1831 |    3 | Silver Ore                    |    120030 | 11.7664
+| immersiveengineering:ore              | 1831 |    4 | Nickel Ore                    |    235166 | 23.0532
+| immersiveengineering:ore              | 1831 |    5 | Uranium Ore                   |    270929 | 26.5590
+| minecraft:coal_ore                    |   16 |    0 | Coal Ore                      |    131449 | 12.8858     *
+| minecraft:diamond_ore                 |   56 |    0 | Diamond Ore                   |     21834 | 2.1403
+| minecraft:emerald_ore                 |  129 |    0 | Emerald Ore                   |     11884 | 1.1649      *
+| minecraft:gold_ore                    |   14 |    0 | Gold Ore                      |    171474 | 16.8095
+| minecraft:iron_ore                    |   15 |    0 | Iron Ore                      |    341476 | 33.4747     *
+| minecraft:lapis_ore                   |   21 |    0 | Lapis Lazuli Ore              |     21019 | 2.0604      *
+| minecraft:redstone_ore                |   73 |    0 | Redstone Ore                  |     51879 | 5.0856      *
+| primal:ore_zinc                       | 2178 |    0 | Carbonate Zinc Ore            |    412134 | 40.4013     *
+| thermalfoundation:ore                 |  403 |    1 | Tin Ore                       |    461892 | 45.2790     *
+| thermalfoundation:ore                 |  403 |    6 | Platinum Ore                  |     27591 | 2.7047      *
+| thermalfoundation:ore                 |  403 |    7 | Iridium Ore                   |   5593719 | 548.3500    *
+
+
+v1.8
+| deepresonance:resonating_ore          | 1552 |    0 | Resonating Ore                       |    496068 | 48.6293  *
+| immersiveengineering:ore              | 1798 |    0 | Copper Ore                           |   1177297 | 115.4099 *
+| immersiveengineering:ore              | 1798 |    1 | Bauxite Ore                          |   1346329 | 131.9800 *
+| immersiveengineering:ore              | 1798 |    2 | Lead Ore                             |     39887 | 3.9101   *
+| immersiveengineering:ore              | 1798 |    3 | Silver Ore                           |     54051 | 5.2985
+| immersiveengineering:ore              | 1798 |    4 | Nickel Ore                           |    392485 | 38.4751  *
+| immersiveengineering:ore              | 1798 |    5 | Uranium Ore                          |    946764 | 92.8109  *
+| minecraft:coal_ore                    |   16 |    0 | Coal Ore                             |    214906 | 21.0671  *
+| minecraft:diamond_ore                 |   56 |    0 | Diamond Ore                          |     32128 | 3.1494   *
+| minecraft:emerald_ore                 |  129 |    0 | Emerald Ore                          |     10054 | 0.9855
+| minecraft:gold_ore                    |   14 |    0 | Gold Ore                             |    180342 | 17.6788  *
+| minecraft:iron_ore                    |   15 |    0 | Iron Ore                             |    323074 | 31.6708
+| minecraft:lapis_ore                   |   21 |    0 | Lapis Lazuli Ore                     |     31258 | 3.0642   *
+| minecraft:redstone_ore                |   73 |    0 | Redstone Ore                         |     26086 | 2.5572   *
+| primal:ore_zinc                       | 2145 |    0 | Carbonate Zinc Ore                   |      3732 | 0.3658   *
+| thermalfoundation:ore                 |  403 |    1 | Tin Ore                              |   1104036 | 108.2282 *
+| thermalfoundation:ore                 |  403 |    6 | Platinum Ore                         |     23535 | 2.3071   *
+
+
+v1.7
+| deepresonance:resonating_ore            | 1552 |    0 | Resonating Ore                  |    484126 | 47.4586
+| immersiveengineering:ore                | 1798 |    0 | Copper Ore                      |    621539 | 60.9292     *
+| immersiveengineering:ore                | 1798 |    1 | Bauxite Ore                     |   1490237 | 146.0873    *
+| immersiveengineering:ore                | 1798 |    2 | Lead Ore                        |     29284 | 2.8706
+| immersiveengineering:ore                | 1798 |    3 | Silver Ore                      |     56978 | 5.5855      *
+| immersiveengineering:ore                | 1798 |    4 | Nickel Ore                      |     72675 | 7.1243
+| immersiveengineering:ore                | 1798 |    5 | Uranium Ore                     |    919069 | 90.0959     *
+| minecraft:coal_ore                      |   16 |    0 | Coal Ore                        |    239534 | 23.4814     0
+| minecraft:diamond_ore                   |   56 |    0 | Diamond Ore                     |     26701 | 2.6174      *
+| minecraft:emerald_ore                   |  129 |    0 | Emerald Ore                     |     19316 | 1.8935      *
+| minecraft:gold_ore                      |   14 |    0 | Gold Ore                        |    163356 | 16.0137     *
+| minecraft:iron_ore                      |   15 |    0 | Iron Ore                        |    502515 | 49.2613     *
+| minecraft:lapis_ore                     |   21 |    0 | Lapis Lazuli Ore                |     26382 | 2.5862      *
+| minecraft:redstone_ore                  |   73 |    0 | Redstone Ore                    |     16532 | 1.6206      *
+| primal:ore_zinc                         | 2145 |    0 | Carbonate Zinc Ore              |     11327 | 1.1103
+| thermalfoundation:ore                   |  403 |    6 | Platinum Ore                    |     27828 | 2.7279      *
+
+
+v1.6
+| deepresonance:resonating_ore            | 1552 |    0 | Resonating Ore                  |    322412 | 31.6059
+| immersiveengineering:ore                | 1798 |    0 | Copper Ore                      |    364818 | 35.7629     *
+| thermalfoundation:ore                   |  403 |    0 | Copper Ore                      |    108214 | 10.6081
+| immersiveengineering:ore                | 1798 |    2 | Lead Ore                        |     46846 | 4.5922
+| immersiveengineering:ore                | 1798 |    3 | Silver Ore                      |     75327 | 7.3842      0
+| immersiveengineering:ore                | 1798 |    4 | Nickel Ore                      |     82081 | 8.0463
+| immersiveengineering:ore                | 1798 |    5 | Uranium Ore                     |    596293 | 58.4543     *
+| minecraft:coal_ore                      |   16 |    0 | Coal Ore                        |    103534 | 10.1493     *
+| minecraft:diamond_ore                   |   56 |    0 | Diamond Ore                     |     37001 | 3.6271      *
+| minecraft:emerald_ore                   |  129 |    0 | Emerald Ore                     |      9807 | 0.9613      0
+| minecraft:gold_ore                      |   14 |    0 | Gold Ore                        |    151563 | 14.8576     *
+| minecraft:iron_ore                      |   15 |    0 | Iron Ore                        |    387450 | 37.9815     0
+| minecraft:lapis_ore                     |   21 |    0 | Lapis Lazuli Ore                |     33896 | 3.3228      *
+| minecraft:redstone_ore                  |   73 |    0 | Redstone Ore                    |        99 | 0.0097
+| primal:ore_zinc                         | 2145 |    0 | Carbonate Zinc Ore              |      2088 | 0.2046
+| thermalfoundation:ore                   |  403 |    6 | Platinum Ore                    |     41556 | 4.0737      *
+
+
+v1.5
+| deepresonance:resonating_ore            | 1552 |    0 | Resonating Ore                       |    531256 | 52.0788
+| immersiveengineering:ore                | 1798 |    0 | Copper Ore                           |    355825 | 34.8813    0
+| immersiveengineering:ore                | 1798 |    4 | Nickel Ore                           |    103073 | 10.1042
+| immersiveengineering:ore                | 1798 |    5 | Uranium Ore                          |   1017824 | 99.7768    *
+| minecraft:coal_ore                      |   16 |    0 | Coal Ore                             |    188157 | 18.4449    0
+| minecraft:diamond_ore                   |   56 |    0 | Diamond Ore                          |     40670 | 3.9868     *
+| minecraft:emerald_ore                   |  129 |    0 | Emerald Ore                          |      5404 | 0.5297     0
+| minecraft:iron_ore                      |   15 |    0 | Iron Ore                             |    384116 | 37.6547    0
+| minecraft:lapis_ore                     |   21 |    0 | Lapis Lazuli Ore                     |     17144 | 1.6806     0
+| minecraft:redstone_ore                  |   73 |    0 | Redstone Ore                         |        99 | 0.0097
+| primal:ore_zinc                         | 2145 |    0 | Carbonate Zinc Ore                   |      3611 | 0.3539
+| thermalfoundation:ore                   |  403 |    6 | Platinum Ore                         |     39050 | 3.8280     *
+
+v1.4
+| deepresonance:resonating_ore           | 1552 |    0 | Resonating Ore                       |    596725 | 58.4967
+| immersiveengineering:ore               | 1798 |    0 | Copper Ore                           |    259488 | 25.4375     *
+| immersiveengineering:ore               | 1798 |    4 | Nickel Ore                           |     56913 | 5.5791
+| immersiveengineering:ore               | 1798 |    5 | Uranium Ore                          |   1147065 | 112.4463    *
+| minecraft:coal_ore                     |   16 |    0 | Coal Ore                             |    184768 | 18.1127     *
+| minecraft:diamond_ore                  |   56 |    0 | Diamond Ore                          |     29543 | 2.8960      *
+| minecraft:emerald_ore                  |  129 |    0 | Emerald Ore                          |       753 | 0.0738      *
+| minecraft:gold_ore                     |   14 |    0 | Gold Ore                             |      8498 | 0.8330
+| minecraft:iron_ore                     |   15 |    0 | Iron Ore                             |    247251 | 24.2379     *
+| minecraft:lapis_ore                    |   21 |    0 | Lapis Lazuli Ore                     |     38502 | 3.7743      *
+| minecraft:redstone_ore                 |   73 |    0 | Redstone Ore                         |        58 | 0.0056
+| primal:ore_zinc                        | 2145 |    0 | Carbonate Zinc Ore                   |      6726 | 0.6593
+| thermalfoundation:ore                  |  403 |    6 | Platinum Ore                         |   1862741 | 182.6037    *
+| thermalfoundation:ore                  |  403 |    7 | Iridium Ore                          |    861247 | 84.4277
+
+v1.3
+| deepresonance:resonating_ore            | 1552 |    0 | Resonating Ore                  |     23856 | 2.3385
+| immersiveengineering:ore                              | Copper Ore                      |         0 | 0.0             *
+| immersiveengineering:ore                | 1798 |    4 | Nickel Ore                      |     64356 | 6.3087
+| minecraft:coal_ore                      |   16 |    0 | Coal Ore                        |    352926 | 34.5971         *
+| minecraft:diamond_ore                   |   56 |    0 | Diamond Ore                     |     31060 | 3.0447          *
+| minecraft:emerald_ore                   |  129 |    0 | Emerald Ore                     |      7165 | 0.7023          *
+| minecraft:gold_ore                      |   14 |    0 | Gold Ore                        |       736 | 0.0721
+| minecraft:iron_ore                      |   15 |    0 | Iron Ore                        |    269895 | 26.4577         *
+| minecraft:redstone_ore                  |   73 |    0 | Redstone Ore                    |        99 | 0.0097
+| primal:ore_zinc                         | 2135 |    0 | Carbonate Zinc Ore              |      7791 | 0.7637
+| thermalfoundation:ore                   |  403 |    6 | Platinum Ore                    |   1783673 | 174.8527        *
+
+v1.2
+| deepresonance:resonating_ore            | 1552 |    0 | Resonating Ore                       |     24245 | 2.3767
+| immersiveengineering:ore                | 1798 |    4 | Nickel Ore                           |     72741 | 7.1307
+| minecraft:coal_ore                      |   16 |    0 | Coal Ore                             |    424263 | 41.5903    *
+| minecraft:diamond_ore                   |   56 |    0 | Diamond Ore                          |     44606 | 4.3727     *
+| minecraft:emerald_ore                   |  129 |    0 | Emerald Ore                          |      3697 | 0.3624     *
+| minecraft:gold_ore                      |   14 |    0 | Gold Ore                             |       509 | 0.0498
+| minecraft:iron_ore                      |   15 |    0 | Iron Ore                             |    770002 | 75.4829    *
+| primal:ore_zinc                         | 2145 |    0 | Carbonate Zinc Ore                   |      6488 | 0.6360
+
+v1.1
+| deepresonance:resonating_ore          | 1552 |    0 | Resonating Ore                       |     23399 | 2.2937
+| immersiveengineering:ore              | 1798 |    4 | Nickel Ore                           |    280934 | 27.5398
+| minecraft:coal_ore                    |   16 |    0 | Coal Ore                             |   1378298 | 135.1140     *
+| minecraft:diamond_ore                 |   56 |    0 | Diamond Ore                          |    202996 | 19.8996      *
+| minecraft:emerald_ore                 |  129 |    0 | Emerald Ore                          |     13840 | 1.3567       *
+| minecraft:gold_ore                    |   14 |    0 | Gold Ore                             |       626 | 0.0613
+| minecraft:iron_ore                    |   15 |    0 | Iron Ore                             |   1115502 | 109.3522     *
+| minecraft:redstone_ore                |   73 |    0 | Redstone Ore                         |       167 | 0.0163
+| primal:ore_zinc                       | 2145 |    0 | Carbonate Zinc Ore                   |      9455 | 0.9268
+
+v1.0
+| deepresonance:resonating_ore          | 1552 |    0 | Resonating Ore                       |     23665 | 2.3198 
+| minecraft:coal_ore                    |   16 |    0 | Coal Ore                             |   4574330 | 448.4197     *
+| minecraft:diamond_ore                 |   56 |    0 | Diamond Ore                          |   1069052 | 104.7987     *
+| minecraft:emerald_ore                 |  129 |    0 | Emerald Ore                          |     52893 | 5.1850       *
+| minecraft:gold_ore                    |   14 |    0 | Gold Ore                             |       856 | 0.0839
+| minecraft:iron_ore                    |   15 |    0 | Iron Ore                             |    694519 | 68.0834      *
+| minecraft:redstone_ore                |   73 |    0 | Redstone Ore                         |        41 | 0.0040
+| primal:ore_zinc                       | 2135 |    0 | Carbonate Zinc Ore                   |      3474 | 0.3405       

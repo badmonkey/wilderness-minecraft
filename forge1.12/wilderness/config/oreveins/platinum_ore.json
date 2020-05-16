@@ -1,0 +1,31 @@
+{
+    "platinum_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "thermalfoundation:ore",
+                "meta": 6,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_madwort",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 4,
+        "rarity": 715,
+        "min_y": 24,
+        "max_y": 46,
+        "density": 100,
+        "vertical_size": 36,
+        "horizontal_size": 16,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

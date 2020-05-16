@@ -1,0 +1,209 @@
+
+=== todo ===
+per-dimension ores
+move piece-of-ore to contenttweaker (drops and combine recipes)
+remove lightning wraith from overworld
+less zinc, less ores in general
+allow basic use of AS marble, TF/IE ores
+spawn limbo fox
+
+
+=== stuff ==
+
+
+-1: Nether              noslimeisle
+ 0: Overworld           noslimeisle,caves
+ 1: The End             noslimeisle
+ 2: Wyldlands           noslimeisle,caves,fireicetemples (forests,jungles,woods)
+ 3: Mesozoic            noslimeisle,fossils,permafrost
+ 4: Skylands            *dragons
+ 5: The Defiled         noslimeisle,parasites,poison,(uranium,resonating)
+ 6: The Void             
+ 7: Limbo               *noslimeisle,parasites
+ 8: Dagobah             parasites,caves (swamplands)
+ 9: Forgotten           noslimeisle,caves,poison,fireicetemples,dragons (desert/mountains) 
+10: The Rot             *parasites,poison,caves
+11: Above               *
+20: The Betweenlands    noslimeisle,decay (via Midnight),inv(Betweenlands)
+21: The Beneath         *noslimeisle,decay,parasites
+22: The Midnight        parasites
+
+
+== Stages ==
+PrimalCore
+
+%Beginning(1)
+  Rustic
+  Quark
+  Charm
+  [2]Wyldlands (portal: wood frame + bone)
+  [4]Skylands (fly up)
+  [7]Limbo (dig)
+  [8]Dagobah (portal: mud + bone)
+  [10]The Rot (dig)
+  [11]Above (fly)
+  [20]Betweenlands (fight the druids, portal in midnight)
+  [21]The Beneath (dig)
+  [22]The Midnight (night rifts)
+  %advcooking
+  %freemarket
+
+%Metalworking(2)
+  Tinkerers
+  conarm
+  simple storage network
+  [-1]Nether (obsidian portal + flintsteel)
+  
+%Wonders(3)
+  Ice&Fire
+  Astral Sorcery
+  FossilArch
+  Wizardry
+  [3]Mesozoic (portal: )
+  
+%Industry(4)
+  Furnance/NetherFurnance
+  needtobreathe
+  Immersive Engineering
+  Immersive Petroleum
+  kuarry
+  survivalsystems
+  [1]TheEnd (portal: endportal)
+  [5]Defiled (portal: )
+  [6]TheVoid (protal: )
+  [9]The Forgotten (portal: )
+  %Advanced
+    Deep Resonance
+    Modular Machines
+    Woot
+  
+%Dragons(6)
+  Draconic
+
+  
+  
+  
+https://github.com/alcatrazEscapee/ore-veins/blob/1.12/README.md
+https://pastebin.com/u/masa-
+https://github.com/TheRandomLabs/RandomPortals/blob/misc/Custom%20Portal%20Examples/reference_portal/0.json
+
+https://www.curseforge.com/minecraft/mc-mods/loottabletweaker
+https://docs.blamejared.com/1.12/en/#Mods/LootTableTweaker/LootTableTweaker/
+https://wiki.mcjty.eu/mods/index.php?title=ControlMods
+https://github.com/gigaherz/Guidebook/blob/master/examples/config/books/demobook.xml
+
+https://reasonable-realism.fandom.com/wiki/Prospecting
+https://github.com/PandaBoy444/ProjectGear/tree/master/config/oreveins
+
+https://github.com/Draco18s/ReasonableRealism
+
+  
+setPortal(4, 0, 3, "primal:soul_stone", 6)
+setPortalIgniter(4, "iceandfire:stymphalian_bird_feather")  
+ 
+ 
+ 
+ defiledlands:desert_defiled=1
+        defiledlands:forest_vilespine=1
+        defiledlands:forest_tenebra=1
+        defiledlands:plains_defiled=1
+        defiledlands:swamp_defiled=1
+        defiledlands:hills_defiled=1
+        defiledlands:plains_defiled=1
+        defiledlands:ice_plains_defiled=1
+        biomesoplenty:dead_forest=1
+        biomesoplenty:dead_swamp=1
+        biomesoplenty:wastelands=1
+        biomesoplenty:corrupted_sands=1
+        biomesoplenty:visceral_heap=1
+        stygian:acidic_plains=1
+        
+        
+minecraft:desert=1
+        minecraft:extreme_hills=2
+        biomesoplenty:crag=3        
+        
+        
+"worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;1*minecraft:bedrock,254*biomesoplenty:flesh,1*minecraft:bedrock;1;"
+            },        
+
+            
+            
+iron        minecraft:iron_ore
+coal        minecraft:coal_ore
+diamond     minecraft:diamond_ore
+redstone    minecraft:redstone_ore
+gold        minecraft:gold_ore
+emerald     minecraft:emerald_ore
+lapis       minecraft:lapis_ore
+copper      immersiveengineering:ore:0  thermalfoundation:ore:0
+aluminium   immersiveengineering:ore:1  thermalfoundation:ore:4
+lead        immersiveengineering:ore:2  thermalfoundation:ore:3
+silver      immersiveengineering:ore:3  thermalfoundation:ore:2
+nickel      immersiveengineering:ore:4  thermalfoundation:ore:5
+uranium     immersiveengineering:ore:5
+resonating  deepresonance:resonating_ore:?
+tin         thermalfoundation:ore:1
+platinium   thermalfoundation:ore:6
+iridium     thermalfoundation:ore:7
+zinc        primal:ore_zinc:0
+
+
+mods.Delivery.Store.addTrade("freemarket", <gbook:guidebook>.withTag({Book:"gbook:planes.xml"}), SHOPNAME, enderiumToken * 1, copperPiece * 3);
+
+
+import crafttweaker.events.IEventManager;
+import crafttweaker.player.IPlayer;
+import mods.AAMarkerAPI;
+import mods.AAMarker;
+//Clicking (left- or right-) on a the specified blocks with an Antique Atlas item in-hand will add a marker to that atlas
+//Clicking on a spawner will add a marker with the "skull" icon, and the diamond ore will use the "diamond" icon
+events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent){        
+    if (<antiqueatlas:antique_atlas:*>.matches(event.player.currentItem)) {            
+        var atlasID as int;        
+        var x as double;
+        var z as double;         
+        var mkI as int;
+        var mkAAM as AAMarker;
+                                                     
+        if (!event.world.isRemote()){
+            atlasID = event.player.currentItem.metadata;                
+            x = event.player.x;
+            z = event.player.z;
+            
+                                                                            
+                                                                           
+            if ((<minecraft:mob_spawner>.asBlock()) in (event.block)){                    
+                    mods.AAMarkerAPI.putMarker(event.world, false, atlasID, "skull", event.block.displayName , x, z);                     
+                    event.player.sendMessage("Marker added");
+                    event.cancel();
+            }        
+                     
+            if ((<minecraft:diamond_ore>.asBlock()) in (event.block)){                    
+                    mkI = mods.AAMarkerAPI.putMarkerI(event.world, false, atlasID, "diamond", event.block.displayName , x, z);                     
+                    event.player.sendMessage("Marker added");
+                    event.cancel();
+            }                             
+            
+            if ((<minecraft:dirt>.asBlock()) in (event.block)){
+                    mkAAM = mods.AAMarkerAPI.putMarker(event.world, false, atlasID, "google", event.block.displayName , x, z);                     
+                    event.player.sendMessage("Marker added");
+                    event.player.sendMessage("Nah, nevermind");
+                    mods.AAMarkerAPI.deleteMarker(event.world, atlasID, mkAAM.getId());
+                    event.player.sendMessage("Marker Deleted");
+                    event.cancel();
+            }
+        }
+    }
+});
+
+
+block.setDropHandler(function(drops, world, position, state, fortune) {
+	
+	drops.add(<item:minecraft:bedrock>);
+	drops.add(<item:minecraft:carrot> % 50);
+
+	return;
+});

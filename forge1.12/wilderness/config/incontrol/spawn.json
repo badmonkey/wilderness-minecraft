@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "mob": "iceandfire:deathworm",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": ["primitivemobs:blazing_juggernaut", "primitivemobs:flame_spewer", "primitivemobs:sheepman"],
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": [
+        "primitivemobs:baby_spider", "primitivemobs:bewitched_tome", "primitivemobs:brain_slime", "primitivemobs:chameleon", "primitivemobs:dodo",
+        "primitivemobs:filch_lizard", "primitivemobs:goblin", "primitivemobs:haunted_tool", "primitivemobs:lily_lurker", "primitivemobs:lost_miner",
+        "primitivemobs:mother_spider", "primitivemobs:support_creeper", "primitivemobs:traveling_merchant", "primitivemobs:treasure_slime",
+        "fossil:fossil.coelacanth", "fossil:fossil.compsognathus", "fossil:fossil.sturgeon", "fossil:fossil.nautilus", "fossil:fossil.phorusrhacos",
+        "fossil:fossil.quagga"],
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "weather": "thunder",
+    "mob": ["ebwizardry:lightning_wraith"],
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": ["iceandfire:stymphalianbird", "iceandfire:if_cockatrice", "ebwizardry:lightning_wraith"],
+    "result": "deny"
+  },
+  {
+    "dimension": [1, 2],
+    "mob": ["primitivemobs:void_eye"],
+    "result": "default"
+  },
+  {
+    "dimension": 2,
+    "seesky": true,
+    "hostile": true,
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2
+  },
+  {
+    "dimension": 3,
+    "insphere": true,
+    "passive": true,
+    "mod": ["minecraft", "emberroot"],
+    "result": "allow"
+  },
+  {
+    "dimension": 3,
+    "insphere": true,
+    "mod": ["minecraft", "emberroot"],
+    "result": "default"
+  },
+  {
+    "dimension": 3,
+    "mod": ["minecraft", "emberroot"],
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "insphere": true,
+    "mod": ["fossil"],
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mod": ["fossil"],
+    "result": "default"
+  },
+  {
+    "dimension": [5, 7, 8, 10, 21, 22],
+    "mod": ["srparasites"],
+    "result": "default"
+  },
+  {
+    "mod": ["srparasites", "fossil", "primitivemobs"],
+    "result": "deny"
+  },
+  {
+    "result": "default"
+  }
+]

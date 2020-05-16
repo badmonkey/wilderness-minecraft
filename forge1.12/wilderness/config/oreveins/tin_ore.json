@@ -1,0 +1,87 @@
+{
+    "tin": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "thermalfoundation:ore",
+                "meta": 1,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_tansy",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "clusters": 6,
+        "rarity": 700,
+        "min_y": 0,
+        "max_y": 60,
+        "density": 160,
+        "vertical_size": 36,
+        "horizontal_size": 24,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "tin_copper_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "thermalfoundation:ore",
+                "meta": 1,
+                "weight": 1
+            },
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 0,
+                "weight": 1
+            }
+     
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_tansy",
+                        "weight": 1
+                    },
+                    {
+                        "block": "contenttweaker:flower_hauman",
+                        "weight": 1
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "contenttweaker:flower_copper_flower",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 1
+            }
+        ],
+        "rarity": 850,
+        "min_y": 5,
+        "max_y": 55,
+        "density": 80,
+        "vertical_size": 30,
+        "horizontal_size": 80,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}

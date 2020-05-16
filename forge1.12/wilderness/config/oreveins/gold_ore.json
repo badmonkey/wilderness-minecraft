@@ -1,0 +1,149 @@
+{
+    "gold_cone_overworld": {
+        "type": "cone",
+        "ore": "minecraft:gold_ore",
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": "contenttweaker:flower_horsetail",
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 14
+            },
+            {
+                "blocks": "piecesofore:piecofgold",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 400,
+        "min_y": 8,
+        "max_y": 50,
+        "density": 360,
+        "vertical_size": 20,
+        "horizontal_size": 10,
+        "inverted": true,
+        "shape": 0.5,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "electrum_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "minecraft:gold_ore",
+                "weight": 30
+            },
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 3,
+                "weight": 20
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_horsetail",
+                        "weight": 30
+                    },
+                    {
+                        "block": "contenttweaker:flower_mustard",
+                        "weight": 20
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 10
+            },
+            {
+                "blocks": "contenttweaker:flower_rapeseed",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 10
+            },
+            {
+                "blocks": "piecesofore:piecofgold",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 400,
+        "min_y": 10,
+        "max_y": 40,
+        "density": 50,
+        "vertical_size": 10,
+        "horizontal_size": 15,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    },
+    "gold_copper_cluster_overworld": {
+        "type": "cluster",
+        "ore": [
+            {
+                "block": "minecraft:gold_ore",
+                "weight": 1
+            },
+            {
+                "block": "immersiveengineering:ore",
+                "meta": 0,
+                "weight": 1
+            }
+        ],
+        "stone": "minecraft:stone",
+        "indicator": [
+            {
+                "blocks": [
+                    {
+                        "block": "contenttweaker:flower_horsetail",
+                        "weight": 1
+                    },
+                    {
+                        "block": "contenttweaker:flower_hauman",
+                        "weight": 1
+                    }
+                ],
+                "blocks_under": [
+                    "ore:grass",
+                    "ore:dirt"
+                ],
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "contenttweaker:flower_copper_flower",
+                "blocks_under": "ore:sand",
+                "rarity": 40,
+                "max_depth": 128,
+                "weight": 7
+            },
+            {
+                "blocks": "piecesofore:piecofgold",
+                "rarity": 40,
+                "max_depth": 64,
+                "weight": 1
+            }
+        ],
+        "rarity": 400,
+        "min_y": 5,
+        "max_y": 55,
+        "density": 15,
+        "vertical_size": 30,
+        "horizontal_size": 80,
+        "dimensions": [ 0, 2, 3, 8 ],
+        "dimensions_is_whitelist": true
+    }
+}
