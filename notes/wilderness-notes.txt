@@ -2,9 +2,7 @@
 === todo ===
 per-dimension ores
 move piece-of-ore to contenttweaker (drops and combine recipes)
-remove lightning wraith from overworld
 less zinc, less ores in general
-allow basic use of AS marble, TF/IE ores
 spawn limbo fox
 
 
@@ -154,50 +152,6 @@ zinc        primal:ore_zinc:0
 mods.Delivery.Store.addTrade("freemarket", <gbook:guidebook>.withTag({Book:"gbook:planes.xml"}), SHOPNAME, enderiumToken * 1, copperPiece * 3);
 
 
-import crafttweaker.events.IEventManager;
-import crafttweaker.player.IPlayer;
-import mods.AAMarkerAPI;
-import mods.AAMarker;
-//Clicking (left- or right-) on a the specified blocks with an Antique Atlas item in-hand will add a marker to that atlas
-//Clicking on a spawner will add a marker with the "skull" icon, and the diamond ore will use the "diamond" icon
-events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent){        
-    if (<antiqueatlas:antique_atlas:*>.matches(event.player.currentItem)) {            
-        var atlasID as int;        
-        var x as double;
-        var z as double;         
-        var mkI as int;
-        var mkAAM as AAMarker;
-                                                     
-        if (!event.world.isRemote()){
-            atlasID = event.player.currentItem.metadata;                
-            x = event.player.x;
-            z = event.player.z;
-            
-                                                                            
-                                                                           
-            if ((<minecraft:mob_spawner>.asBlock()) in (event.block)){                    
-                    mods.AAMarkerAPI.putMarker(event.world, false, atlasID, "skull", event.block.displayName , x, z);                     
-                    event.player.sendMessage("Marker added");
-                    event.cancel();
-            }        
-                     
-            if ((<minecraft:diamond_ore>.asBlock()) in (event.block)){                    
-                    mkI = mods.AAMarkerAPI.putMarkerI(event.world, false, atlasID, "diamond", event.block.displayName , x, z);                     
-                    event.player.sendMessage("Marker added");
-                    event.cancel();
-            }                             
-            
-            if ((<minecraft:dirt>.asBlock()) in (event.block)){
-                    mkAAM = mods.AAMarkerAPI.putMarker(event.world, false, atlasID, "google", event.block.displayName , x, z);                     
-                    event.player.sendMessage("Marker added");
-                    event.player.sendMessage("Nah, nevermind");
-                    mods.AAMarkerAPI.deleteMarker(event.world, atlasID, mkAAM.getId());
-                    event.player.sendMessage("Marker Deleted");
-                    event.cancel();
-            }
-        }
-    }
-});
 
 
 block.setDropHandler(function(drops, world, position, state, fortune) {

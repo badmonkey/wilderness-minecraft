@@ -29,11 +29,26 @@
     "antiqueatlas:red_x_large": {},
     "antiqueatlas:red_x_small": {},
     "antiqueatlas:scroll": {},
+    "antiqueatlas:signpost": {
+      "textures": [
+        "contenttweaker:textures/markers/signpost.png"
+      ]
+    },
     "antiqueatlas:skull": {},
     "antiqueatlas:sword": {},
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},
+    "antiqueatlas:town": {
+      "textures": [
+        "contenttweaker:textures/markers/signpost.png"
+      ]
+    },
     "antiqueatlas:village": {},
+    "antiqueatlas:waypoint": {
+      "textures": [
+        "contenttweaker:textures/markers/signpost.png"
+      ]
+    },
     "ebwizardry:obelisk": {},
     "ebwizardry:shrine": {},
     "ebwizardry:wizard_tower": {}

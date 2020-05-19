@@ -20,6 +20,13 @@ scripts.staging.stageWholeMod("advtech", "xnet");
 //midnight:midnight_furnace
 //natura:netherrack_furnace
 
+print("Containers");
+mods.recipestages.Recipes.setPrintContainers(true);
+
+mods.recipestages.Recipes.setContainerStage("net.minecraft.inventory.ContainerChest", ["industry"]);
+mods.recipestages.Recipes.setContainerStage("net.minecraft.inventory.Baget", ["industry"]);
+mods.recipestages.Recipes.setContainerStage("nmd.primal.core.common.containers.ContainerStorageCrate", ["industry"]);
+mods.recipestages.Recipes.setContainerStage("agb", ["industry"]);
 mods.ItemStages.stageRecipeCategory("industry", "minecraft.smelting");
 
 
