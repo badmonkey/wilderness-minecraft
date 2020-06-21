@@ -5,7 +5,7 @@
         "stone": "minecraft:stone",
         "indicator": [
             {
-                "blocks": "piecesofore:piecesofsaphire",
+                "blocks": "contenttweaker:indicator_emerald",
                 "rarity": 40,
                 "max_depth": 64,
                 "weight": 1

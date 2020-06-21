@@ -19,6 +19,11 @@
       "centerX": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)",
       "centerY": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)"
     },
+    "antiqueatlas:banner": {
+      "textures": [
+        "contenttweaker:textures/markers/banner.png"
+      ]
+    },
     "antiqueatlas:bed": {},
     "antiqueatlas:diamond": {},
     "antiqueatlas:end_city": {},
@@ -26,6 +31,16 @@
     "antiqueatlas:google": {},
     "antiqueatlas:nether_portal": {},
     "antiqueatlas:pickaxe": {},
+    "antiqueatlas:playertown": {
+      "textures": [
+        "contenttweaker:textures/markers/playertown.png"
+      ]
+    },
+    "antiqueatlas:playertown2": {
+      "textures": [
+        "contenttweaker:textures/markers/playertown2.png"
+      ]
+    },
     "antiqueatlas:red_x_large": {},
     "antiqueatlas:red_x_small": {},
     "antiqueatlas:scroll": {},
@@ -36,17 +51,17 @@
     },
     "antiqueatlas:skull": {},
     "antiqueatlas:sword": {},
-    "antiqueatlas:tomb": {},
-    "antiqueatlas:tower": {},
-    "antiqueatlas:town": {
+    "antiqueatlas:sword2": {
       "textures": [
-        "contenttweaker:textures/markers/signpost.png"
+        "contenttweaker:textures/markers/sword2.png"
       ]
     },
+    "antiqueatlas:tomb": {},
+    "antiqueatlas:tower": {},
     "antiqueatlas:village": {},
     "antiqueatlas:waypoint": {
       "textures": [
-        "contenttweaker:textures/markers/signpost.png"
+        "contenttweaker:textures/markers/waypoint.png"
       ]
     },
     "ebwizardry:obelisk": {},

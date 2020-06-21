@@ -1,3 +1,11 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "caliginum_block": 5,
+    "caliginum_nugget": 3,
+    "tenebrum_molten": 6,
+    "caliginum_ingot": 2,
+    "slaked_lime_molten": 0,
+    "nagrilite_molten": 1,
+    "caliginum_molten": 4
+  }
 }

@@ -15,7 +15,7 @@
                 "weight": 14
             },
             {
-                "blocks": "piecesofore:piecofgold",
+                "blocks": "contenttweaker:indicator_gold",
                 "rarity": 40,
                 "max_depth": 64,
                 "weight": 1
@@ -74,7 +74,7 @@
                 "weight": 10
             },
             {
-                "blocks": "piecesofore:piecofgold",
+                "blocks": "contenttweaker:indicator_gold",
                 "rarity": 40,
                 "max_depth": 64,
                 "weight": 1
@@ -131,7 +131,7 @@
                 "weight": 7
             },
             {
-                "blocks": "piecesofore:piecofgold",
+                "blocks": "contenttweaker:indicator_gold",
                 "rarity": 40,
                 "max_depth": 64,
                 "weight": 1

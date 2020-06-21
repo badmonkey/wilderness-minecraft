@@ -1,13 +1,38 @@
-itemGroup.wilderness=Wilderness Items
+itemGroup.wildernesstab=Wilderness Items
+itemGroup.gamestagebooks=GameStage Books
 
 enchantment.berserker=Beserker Curse
 enchantment.kindlich=KindLich
+
+fluid.slakedLime=Slaked Lime
 
 item.contenttweaker.unobtainium.name=Unobtainium
 item.contenttweaker.charging_gem.name=Charging Gem
 item.contenttweaker.deepest_ingot.name=Deepest Ingot
 item.contenttweaker.raw_unobtainium_gem.name=Raw Unobtainium Gem
 item.contenttweaker.ying_yang.name=Equilibrium of Souls
+item.contenttweaker.totem_choice=Totem of Choice
+
+item.contenttweaker.lump_stone.name=Loose Rock
+item.contenttweaker.lump_coal.name=Bituminous Coal Lump
+item.contenttweaker.lump_iron.name=Hematite Lump
+item.contenttweaker.lump_gold.name=Gold Lump
+item.contenttweaker.lump_diamond.name=Kimberlite Lump
+item.contenttweaker.lump_emerald.name=Beryl Lump
+item.contenttweaker.lump_lapis.name=Lapis Lazuli Lump
+item.contenttweaker.lump_redstone.name=Cinnabar Lump
+item.contenttweaker.lump_quartz.name=Quartz Lump
+item.contenttweaker.lump_nether_quartz.name=Nether Quartz Lump
+item.contenttweaker.lump_uranium.name=Uraninite Lump
+item.contenttweaker.lump_bauxite.name=Bauxite Lump
+item.contenttweaker.lump_copper.name=Malachite Lump
+item.contenttweaker.lump_silver.name=Argentite Lump
+item.contenttweaker.lump_tin.name=Cassiterite Lump
+item.contenttweaker.lump_lead.name=Galena Lump
+item.contenttweaker.lump_zinc.name=Sphalerite Lump
+item.contenttweaker.lump_platinum.name=Avaite Lump
+item.contenttweaker.lump_nickel.name=Garnierite Lump
+item.contenttweaker.lump_bismuth.name=Bismuthinite Lump
 
 tile.contenttweaker.blue_obsidian.name=Blue Obsidian
 tile.contenttweaker.unobtainium_ore.name=Unobtainium Ore
@@ -26,6 +51,7 @@ tile.contenttweaker.flower_catchfly.name=Alpine Catchfly
 tile.contenttweaker.flower_chandelier_tree.name=Chandelier Tree
 tile.contenttweaker.flower_clover.name=Clover
 tile.contenttweaker.flower_copper_flower.name=Copper Flower
+tile.contenttweaker.flower_duckweed.name=duckweed
 tile.contenttweaker.flower_flame_lily.name=Flame Lily
 tile.contenttweaker.flower_hauman.name=Hauman
 tile.contenttweaker.flower_horsetail.name=Horsetail
@@ -50,3 +76,23 @@ tile.contenttweaker.flower_vallozia.name=Vallozia
 tile.contenttweaker.flower_zilla.name=Zilla
 tile.contenttweaker.iron_metalcap.name=Iron Metalcap
 
+tile.contenttweaker.indicator_stone.name=Loose Rock
+tile.contenttweaker.indicator_coal.name=Bituminous Coal
+tile.contenttweaker.indicator_iron.name=Hematite
+tile.contenttweaker.indicator_gold.name=Gold
+tile.contenttweaker.indicator_diamond.name=Kimberlite
+tile.contenttweaker.indicator_emerald.name=Beryl
+tile.contenttweaker.indicator_lapis.name=Lapis Lazuli
+tile.contenttweaker.indicator_redstone.name=Cinnabar
+tile.contenttweaker.indicator_quartz.name=Quartz
+tile.contenttweaker.indicator_nether_quartz.name=Nether Quartz
+tile.contenttweaker.indicator_uranium.name=Uraninite
+tile.contenttweaker.indicator_bauxite.name=Bauxite
+tile.contenttweaker.indicator_copper.name=Malachite
+tile.contenttweaker.indicator_silver.name=Argentite
+tile.contenttweaker.indicator_tin.name=Cassiterite
+tile.contenttweaker.indicator_lead.name=Galena
+tile.contenttweaker.indicator_zinc.name=Sphalerite
+tile.contenttweaker.indicator_platinum.name=Avaite
+tile.contenttweaker.indicator_nickel.name=Garnierite
+tile.contenttweaker.indicator_bismuth.name=Bismuthinite

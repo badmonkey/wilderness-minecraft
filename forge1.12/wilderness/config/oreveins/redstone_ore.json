@@ -22,7 +22,7 @@
                 "weight": 7
             },
             {
-                "blocks": "piecesofore:piecesofredstoneore",
+                "blocks": "contenttweaker:indicator_redstone",
                 "rarity": 40,
                 "max_depth": 64,
                 "weight": 1

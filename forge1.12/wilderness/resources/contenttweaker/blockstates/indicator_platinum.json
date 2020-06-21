@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "oretint": "contenttweaker:blocks/indicator/platinum",
+      "particle": "contenttweaker:blocks/indicator/platinum"
+    },
+    "model": "contenttweaker:indicator_block",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

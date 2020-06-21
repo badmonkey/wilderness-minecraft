@@ -87,6 +87,7 @@ primal:adrenaline
 primal:porphyria
 primal:water_burn
 primal:sun_burn
+tektopia:village_bless
 midnight:stunned
 midnight:pollinated
 midnight:dragon_guard
@@ -102,6 +103,9 @@ astralsorcery:potiontimefreeze
 charm:coffee
 charm:decay
 charm:ender_sight
+nutrition:toughness
+nutrition:nourished
+nutrition:malnourished
 thebetweenlands:effect_petrify
 thebetweenlands:effect_isolatedsenses
 thebetweenlands:effect_limbless

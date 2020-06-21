@@ -1,0 +1,9 @@
+{
+  "item.sample.pickup": {
+    "category": "block",
+    "sounds": [
+      "oreindicators:pickup",
+	  "oreindicators:pickup2"
+    ]
+  }
+ }
