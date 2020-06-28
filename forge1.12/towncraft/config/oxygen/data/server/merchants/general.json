@@ -1,0 +1,50 @@
+{
+  "persistent_id": 1,
+  "version_id": 2,
+  "display_name": "General Store",
+  "currency_index": 0,
+  "currency_itemstack": {
+    "registry_name": "minecraft:air",
+    "damage": 0,
+    "itemstack_nbt": "",
+    "capabilities_nbt": "{\"customnpcs:itemscripteddata\":{}}"
+  },
+  "offers": [
+    {
+      "id": 1,
+      "amount": 1,
+      "buy_cost": 10,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "minecraft:emerald",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": "{\"customnpcs:itemscripteddata\":{}}"
+      }
+    },
+    {
+      "id": 2,
+      "amount": 1,
+      "buy_cost": 1,
+      "selling_cost": 0,
+      "itemstack": {
+        "registry_name": "minecraft:netherrack",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": "{\"customnpcs:itemscripteddata\":{}}"
+      }
+    },
+    {
+      "id": 3,
+      "amount": 1,
+      "buy_cost": 2,
+      "selling_cost": 2,
+      "itemstack": {
+        "registry_name": "quark:smoker",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": "{\"customnpcs:itemscripteddata\":{}}"
+      }
+    }
+  ]
+}
