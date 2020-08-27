@@ -2,6 +2,8 @@ forge1.12/*/tmp/
 forge1.12/*/dumps/
 forge1.12/*/logs/
 forge1.12/*/mods/*.jar
+forge1.12/*/mods/OpenTerrainGenerator/worlds/*/WorldObjects/
+forge1.12/*/mods/OpenTerrainGenerator/worlds/*/WorldBiomes/
 forge1.12/*/mods/memory_repo/
 forge1.12/*/mods/1.12.2/
 forge1.12/*/saves/
@@ -27,6 +29,7 @@ forge1.12/*/servers.dat
 forge1.12/*/usercache.json
 forge1.12/*/usernamecache.json
 forge1.12/*/.mixin.out/
+forge1.12/*/*.log
 forge1.12/*/backups/
 forge1.12/*/betweenlands_gallery/
 forge1.12/*/generated/
